@@ -1,5 +1,5 @@
 echo "hello world"
 Write-Output "test output"
-Write-Output "@option.example_var@"
-Write-Output @option.example_var@
-Write-Output "test output 2"
+Write-Information "test Information"
+Write-Warning "test warning"
+Write-Errpr "test error"
